@@ -1,0 +1,7 @@
+version: '2'
+services:
+  lab:
+    build: .
+    volumes:
+      - .:/opt/lab
+    command: node lab.js
